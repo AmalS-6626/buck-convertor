@@ -1,0 +1,8 @@
+# KiCad specific files
+*.kicad_prl
+*.kicad_cache
+*-bak
+*-backups/
+*.history/
+sym-lib-table-backups/
+fp-lib-table-backups/
