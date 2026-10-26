@@ -6,3 +6,5 @@
 *.history/
 sym-lib-table-backups/
 fp-lib-table-backups/"*.lck" 
+"*.lck" 
+"*.step" 
