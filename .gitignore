@@ -5,4 +5,4 @@
 *-backups/
 *.history/
 sym-lib-table-backups/
-fp-lib-table-backups/
+fp-lib-table-backups/"*.lck" 
