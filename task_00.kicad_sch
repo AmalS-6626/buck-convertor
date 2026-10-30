@@ -2556,38 +2556,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:TPS54360DDAR"
+		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.7 21.32 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "TPS54360DDAR"
-				(at -6.35 0 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TPS54360DDAR:VREG_LM5017MR_NOPB"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2596,7 +2594,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -2610,6 +2607,106 @@
 					)
 				)
 			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPS54360DDAR:TPS54360DDAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TPS54360DDAR"
+				(at 26.67 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X170-9N"
+				(at 26.67 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/tps54360"
+				(at 26.67 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
 			(property "Description" "4.5V to 60 V Input, 3.5 A Step-Down Converter with Eco-mode"
 				(at 0 0 0)
 				(show_name no)
@@ -2619,11 +2716,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
+			(property "Height" "1.7"
+				(at 26.67 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2631,11 +2727,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Package" "Package"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2643,11 +2739,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "TPS54360DDAR"
+				(at 26.67 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2655,11 +2751,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS54360DDAR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
+			(property "Mouser Part Number" "595-TPS54360DDAR"
+				(at 26.67 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2667,11 +2763,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "MP" "TPS54360DDAR"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54360DDAR?qs=VMlqFFbv3sTmcApP5n5D5Q%3D%3D"
+				(at 26.67 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2679,11 +2775,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1239604&manufacturer=Texas Instruments&part_name=TPS54360DDAR&search_term=tps54360ddar"
-				(at 0 0 0)
+			(property "Arrow Part Number" "TPS54360DDAR"
+				(at 26.67 -894.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2691,11 +2787,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps54360ddar/texas-instruments?region=nac"
+				(at 26.67 -994.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2703,177 +2799,179 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left top)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS54360DDAR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "TPS54360DDAR_0_0"
-				(pin bidirectional line
-					(at -19.05 -1.27 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPS54360DDAR_0_1"
+			(symbol "TPS54360DDAR_1_1"
 				(rectangle
-					(start -13.97 10.16)
-					(end 13.97 -8.89)
+					(start 5.08 2.54)
+					(end 25.4 -15.24)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "TPS54360DDAR_1_0"
-				(pin bidirectional line
-					(at -19.05 7.62 0)
+				(pin passive line
+					(at 0 0 0)
 					(length 5.08)
 					(name "BOOT"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -19.05 3.81 0)
+				(pin passive line
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "VIN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional clock
-					(at -19.05 -6.35 0)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RT/CLK"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 19.05 -6.35 180)
+				(pin passive line
+					(at 30.48 -7.62 180)
 					(length 5.08)
 					(name "FB"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 19.05 -1.27 180)
+				(pin passive line
+					(at 30.48 -5.08 180)
 					(length 5.08)
 					(name "COMP"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at 19.05 3.81 180)
+				(pin passive line
+					(at 30.48 -2.54 180)
 					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 19.05 7.62 180)
+				(pin passive line
+					(at 30.48 0 180)
 					(length 5.08)
 					(name "SW"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -20.32 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3028,10 +3126,22 @@
 		(uuid "25b997d7-05ab-4326-8159-04e9d534a6c9")
 	)
 	(junction
-		(at 302.26 55.88)
+		(at 304.8 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26259496-d6aa-4675-b89f-7995294e7ca0")
+	)
+	(junction
+		(at 234.95 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "395e996a-222e-404f-ba42-6d411618dce8")
+	)
+	(junction
+		(at 209.55 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "493242fa-7d43-4e60-975a-80064ce16b4d")
 	)
 	(junction
 		(at 152.4 85.09)
@@ -3044,6 +3154,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52a6c28a-bc47-4785-ad62-78af6b0280bb")
+	)
+	(junction
+		(at 190.5 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c6325d8-fa52-4ecb-b183-42c3c3fac717")
 	)
 	(junction
 		(at 160.02 85.09)
@@ -3152,6 +3268,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2a5243c-04fc-46fe-8836-e12db8617d1f")
+	)
+	(junction
+		(at 142.24 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e329bfb8-6970-4a47-b99d-c1ad610d8912")
 	)
 	(junction
 		(at 198.12 170.18)
@@ -3295,16 +3417,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 78.74) (xy 302.26 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1176db34-e9f8-4663-95fb-d02125dbd632")
-	)
-	(wire
-		(pts
 			(xy 209.55 77.47) (xy 226.06 77.47)
 		)
 		(stroke
@@ -3332,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "1657accf-407f-4bb1-ab0f-d4103cf862df")
+	)
+	(wire
+		(pts
+			(xy 209.55 73.66) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1801a4dc-db0f-4357-9148-239a3dbe2020")
 	)
 	(wire
 		(pts
@@ -3445,16 +3567,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 68.58) (xy 210.82 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec8512c-a361-4dce-8f98-e515c5711028")
-	)
-	(wire
-		(pts
 			(xy 140.97 85.09) (xy 160.02 85.09)
 		)
 		(stroke
@@ -3462,6 +3574,16 @@
 			(type default)
 		)
 		(uuid "40942214-01da-4ad1-bb76-46c5a42886a4")
+	)
+	(wire
+		(pts
+			(xy 209.55 71.12) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41747e1d-be70-4520-800c-20c953ea5d71")
 	)
 	(wire
 		(pts
@@ -3485,7 +3607,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 68.58) (xy 167.64 68.58)
+			(xy 167.64 68.58) (xy 175.26 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3545,7 +3667,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 119.38) (xy 226.06 119.38)
+			(xy 171.45 119.38) (xy 190.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3595,13 +3717,23 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 55.88) (xy 302.26 71.12)
+			(xy 304.8 55.88) (xy 304.8 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e065ed7-c600-44cf-bec7-c0c17f52a790")
+	)
+	(wire
+		(pts
+			(xy 234.95 72.39) (xy 269.24 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5bbd18-dcb1-4d43-986a-87a055fd5069")
 	)
 	(wire
 		(pts
@@ -3645,6 +3777,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 182.88) (xy 220.98 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfb16c4-70f7-4663-aabc-f0e707ec2ced")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 190.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6e851a-324c-40db-abb3-9e040e2a144e")
+	)
+	(wire
+		(pts
 			(xy 304.8 119.38) (xy 304.8 78.74)
 		)
 		(stroke
@@ -3665,6 +3817,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 71.12) (xy 171.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e9fcd6-c63b-4343-90d8-86ecf8508f6c")
+	)
+	(wire
+		(pts
 			(xy 90.17 100.33) (xy 83.82 100.33)
 		)
 		(stroke
@@ -3672,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "7361da42-3864-4b1b-a172-e650bf411355")
+	)
+	(wire
+		(pts
+			(xy 209.55 190.5) (xy 209.55 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7608a738-0e58-46fa-8226-d98d2afab296")
 	)
 	(wire
 		(pts
@@ -3725,6 +3897,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 71.12) (xy 209.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebd0453-d074-40ab-bbc0-2d3044b82fe9")
+	)
+	(wire
+		(pts
 			(xy 293.37 128.27) (xy 293.37 119.38)
 		)
 		(stroke
@@ -3735,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 55.88) (xy 302.26 55.88)
+			(xy 293.37 55.88) (xy 313.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3752,6 +3934,16 @@
 			(type default)
 		)
 		(uuid "81243ea5-7c79-40b5-95ef-636477764fa0")
+	)
+	(wire
+		(pts
+			(xy 142.24 181.61) (xy 142.24 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c423ba-1ed6-4b1f-9504-55c27feed7d5")
 	)
 	(wire
 		(pts
@@ -3865,6 +4057,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 190.5) (xy 209.55 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a202e1e8-d289-4db2-9f5b-7d2c3f653ce1")
+	)
+	(wire
+		(pts
 			(xy 59.69 109.22) (xy 57.15 109.22)
 		)
 		(stroke
@@ -3872,16 +4074,6 @@
 			(type default)
 		)
 		(uuid "a44c5f3e-afc0-44f3-b207-8079b84a72bd")
-	)
-	(wire
-		(pts
-			(xy 302.26 55.88) (xy 313.69 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa975c3e-d1a8-4f1f-9792-67b11d38d939")
 	)
 	(wire
 		(pts
@@ -3925,7 +4117,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 182.88) (xy 220.98 182.88)
+			(xy 198.12 182.88) (xy 209.55 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3995,6 +4187,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 68.58) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79d521f-2036-47b8-af7c-bdb1e8594c8c")
+	)
+	(wire
+		(pts
 			(xy 130.81 119.38) (xy 160.02 119.38)
 		)
 		(stroke
@@ -4055,6 +4257,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 73.66) (xy 209.55 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ecb0b0-cf53-4a2c-bd57-4beef47b73bc")
+	)
+	(wire
+		(pts
 			(xy 234.95 55.88) (xy 247.65 55.88)
 		)
 		(stroke
@@ -4075,7 +4287,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 72.39) (xy 269.24 72.39)
+			(xy 209.55 72.39) (xy 234.95 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4115,6 +4327,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 76.2) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e509bf-b288-4d1b-8737-3eeb6e9e310a")
+	)
+	(wire
+		(pts
 			(xy 210.82 55.88) (xy 193.04 55.88)
 		)
 		(stroke
@@ -4122,6 +4344,16 @@
 			(type default)
 		)
 		(uuid "dce7ad32-9064-42cd-ad89-5a28435d91ce")
+	)
+	(wire
+		(pts
+			(xy 234.95 66.04) (xy 234.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec91c76-883e-464a-a3a7-7e35de3c7a42")
 	)
 	(wire
 		(pts
@@ -4165,7 +4397,27 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 82.55) (xy 171.45 100.33)
+			(xy 175.26 71.12) (xy 171.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f26a1ce0-97e5-496d-a0b6-3f06eaedc41f")
+	)
+	(wire
+		(pts
+			(xy 190.5 119.38) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9ea6cc-ed9c-42fc-af2c-1986c9d9020f")
+	)
+	(wire
+		(pts
+			(xy 171.45 76.2) (xy 171.45 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4194,7 +4446,7 @@
 		(uuid "ff379d48-e467-4ba3-98b4-29b634c1bed1")
 	)
 	(label "FB"
-		(at 209.55 82.55 0)
+		(at 205.74 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4204,7 +4456,7 @@
 		(uuid "1ea5a240-c84e-483b-b16f-5e2f82764b84")
 	)
 	(label "VIN"
-		(at 171.45 72.39 180)
+		(at 175.26 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4214,7 +4466,7 @@
 		(uuid "3124203a-3545-4adb-a4f2-7565e835a0e0")
 	)
 	(label "EN"
-		(at 171.45 77.47 180)
+		(at 175.26 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4456,202 +4708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:TPS54360DDAR")
-		(at 190.5 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a80c9da-f621-48c4-acba-4661a3edad6c")
-		(property "Reference" "U1"
-			(at 190.5 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS54360DDAR"
-			(at 190.5 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS54360DDAR:VREG_LM5017MR_NOPB"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.5V to 60 V Input, 3.5 A Step-Down Converter with Eco-mode"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS54360DDAR/Texas+Instruments/view-part/?ref=snap"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "TPS54360DDAR"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1239604&manufacturer=Texas Instruments&part_name=TPS54360DDAR&search_term=tps54360ddar"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS54360DDAR/Texas+Instruments/view-part/?ref=eda"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "e675010b-2bf6-4e1b-b4c2-2feb16934f41")
-		)
-		(pin "1"
-			(uuid "3b87e2b5-add0-4c60-a152-8e442eea541d")
-		)
-		(pin "7"
-			(uuid "89a75265-f301-4aae-b89a-60a269a33b68")
-		)
-		(pin "5"
-			(uuid "a6582995-e2a0-4fde-a80c-049a45316946")
-		)
-		(pin "8"
-			(uuid "5df63fd8-dbab-4119-b8a7-1ff255b53d65")
-		)
-		(pin "6"
-			(uuid "3bd88ab8-da6a-4de2-8bbf-8069dae9e077")
-		)
-		(pin "4"
-			(uuid "17524845-577f-4af5-958f-91f7c239a2f3")
-		)
-		(pin "3"
-			(uuid "f16120be-f435-4427-b19e-66762f2a3759")
-		)
-		(instances
-			(project "task_00"
-				(path "/27176af0-950f-4c6b-9e26-d34dc44c9020"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 231.14 115.57 0)
 		(unit 1)
@@ -4808,6 +4864,82 @@
 			(project "task_00"
 				(path "/27176af0-950f-4c6b-9e26-d34dc44c9020"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166532c8-655b-4e6f-b1b3-b81d0d2f6b56")
+		(property "Reference" "H1"
+			(at 40.64 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.64 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 38.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "task_00"
+				(path "/27176af0-950f-4c6b-9e26-d34dc44c9020"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5646,6 +5778,193 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS54360DDAR:TPS54360DDAR")
+		(at 175.26 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6396b9b6-c0a0-4d86-96c8-38a5085f1fc8")
+		(property "Reference" "IC1"
+			(at 190.5 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54360DDAR"
+			(at 190.5 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X170-9N"
+			(at 201.93 163.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tps54360"
+			(at 201.93 263.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "4.5V to 60 V Input, 3.5 A Step-Down Converter with Eco-mode"
+			(at 175.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.7"
+			(at 201.93 463.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 201.93 563.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS54360DDAR"
+			(at 201.93 663.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS54360DDAR"
+			(at 201.93 763.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54360DDAR?qs=VMlqFFbv3sTmcApP5n5D5Q%3D%3D"
+			(at 201.93 863.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "TPS54360DDAR"
+			(at 201.93 963.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps54360ddar/texas-instruments?region=nac"
+			(at 201.93 1063.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "3de6e79f-1e4d-4e65-b826-5eb35fd4e011")
+		)
+		(pin "1"
+			(uuid "808532be-e66a-4355-aea7-f278442082eb")
+		)
+		(pin "5"
+			(uuid "f1401bdb-0958-4523-a73d-e6f0ea22b172")
+		)
+		(pin "7"
+			(uuid "fd7efcd4-d963-4993-967a-2ce4e7fcfab7")
+		)
+		(pin "2"
+			(uuid "f75dec71-8d7a-4d80-8f3d-7080a206204a")
+		)
+		(pin "4"
+			(uuid "d8d7468f-35e1-4b36-97e4-6ffb63f0fb9d")
+		)
+		(pin "8"
+			(uuid "03d04462-8187-4578-aba7-ef1ee38810ec")
+		)
+		(pin "6"
+			(uuid "e02405b8-a262-4ee1-968e-bf90ac520151")
+		)
+		(pin "9"
+			(uuid "61c21ba9-1f55-4b5c-b7aa-0fb655877cf1")
+		)
+		(instances
+			(project "task_00"
+				(path "/27176af0-950f-4c6b-9e26-d34dc44c9020"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 142.24 163.83 0)
 		(unit 1)
@@ -6216,6 +6535,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7e48e16-4bd7-4ffa-8d9b-861de034e0af")
+		(property "Reference" "H4"
+			(at 41.91 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 39.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "task_00"
+				(path "/27176af0-950f-4c6b-9e26-d34dc44c9020"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 66.04 100.33 90)
 		(unit 1)
@@ -6316,7 +6711,7 @@
 				)
 			)
 		)
-		(property "Value" "10k, RC0603FR-0710KL"
+		(property "Value" "30, RC0603JR-0730RL"
 			(at 80.01 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7469,7 +7864,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ5.0A")
-		(at 302.26 74.93 270)
+		(at 304.8 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7480,7 +7875,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef87a3af-b011-4dd7-a918-fd92d524e8c8")
 		(property "Reference" "D4"
-			(at 304.8 73.6599 90)
+			(at 307.34 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7491,7 +7886,7 @@
 			)
 		)
 		(property "Value" "SMLVT3V3"
-			(at 304.8 76.1999 90)
+			(at 307.34 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7502,7 +7897,7 @@
 			)
 		)
 		(property "Footprint" "SMLVT3V3:DIOM5336X265N"
-			(at 297.18 74.93 0)
+			(at 299.72 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7513,7 +7908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 73.66 0)
+			(at 304.8 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,7 +7919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 302.26 74.93 0)
+			(at 304.8 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,6 +8018,158 @@
 			(project "task_00"
 				(path "/27176af0-950f-4c6b-9e26-d34dc44c9020"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2fd4ee6-b243-4c4e-821e-a9ddf9cb3ac5")
+		(property "Reference" "H2"
+			(at 41.91 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 39.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "task_00"
+				(path "/27176af0-950f-4c6b-9e26-d34dc44c9020"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f59013f7-4bc4-4e9e-918a-97ff39ed02cc")
+		(property "Reference" "H3"
+			(at 41.91 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 39.37 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "task_00"
+				(path "/27176af0-950f-4c6b-9e26-d34dc44c9020"
+					(reference "H3")
 					(unit 1)
 				)
 			)
